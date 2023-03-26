@@ -13,6 +13,14 @@
 		D6A6A8F329D00CAA002BD638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F129D00CAA002BD638 /* Main.storyboard */; };
 		D6A6A8F529D00CAB002BD638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F429D00CAB002BD638 /* Assets.xcassets */; };
 		D6A6A8F829D00CAB002BD638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F629D00CAB002BD638 /* LaunchScreen.storyboard */; };
+		D6A6A90829D00D0E002BD638 /* app requirement example.docx in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90029D00D0D002BD638 /* app requirement example.docx */; };
+		D6A6A90929D00D0E002BD638 /* my macbook.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90129D00D0D002BD638 /* my macbook.png */; };
+		D6A6A90A29D00D0E002BD638 /* cafeloisl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90229D00D0D002BD638 /* cafeloisl.jpg */; };
+		D6A6A90B29D00D0E002BD638 /* hello sorfian.ppt in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90329D00D0E002BD638 /* hello sorfian.ppt */; };
+		D6A6A90C29D00D0E002BD638 /* become ios developer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90429D00D0E002BD638 /* become ios developer.pdf */; };
+		D6A6A90D29D00D0E002BD638 /* hello world.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90529D00D0E002BD638 /* hello world.html */; };
+		D6A6A90E29D00D0E002BD638 /* app requirement example.doc in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90629D00D0E002BD638 /* app requirement example.doc */; };
+		D6A6A90F29D00D0E002BD638 /* hello sorfian.pptx in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90729D00D0E002BD638 /* hello sorfian.pptx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		D6A6A8F429D00CAB002BD638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A6A8F729D00CAB002BD638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6A6A8F929D00CAB002BD638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A6A90029D00D0D002BD638 /* app requirement example.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app requirement example.docx"; sourceTree = "<group>"; };
+		D6A6A90129D00D0D002BD638 /* my macbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my macbook.png"; sourceTree = "<group>"; };
+		D6A6A90229D00D0D002BD638 /* cafeloisl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafeloisl.jpg; sourceTree = "<group>"; };
+		D6A6A90329D00D0E002BD638 /* hello sorfian.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hello sorfian.ppt"; sourceTree = "<group>"; };
+		D6A6A90429D00D0E002BD638 /* become ios developer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "become ios developer.pdf"; sourceTree = "<group>"; };
+		D6A6A90529D00D0E002BD638 /* hello world.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "hello world.html"; sourceTree = "<group>"; };
+		D6A6A90629D00D0E002BD638 /* app requirement example.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app requirement example.doc"; sourceTree = "<group>"; };
+		D6A6A90729D00D0E002BD638 /* hello sorfian.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hello sorfian.pptx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		D6A6A8EA29D00CAA002BD638 /* SMS Demo App */ = {
 			isa = PBXGroup;
 			children = (
+				D6A6A8FF29D00CD0002BD638 /* Attachment */,
 				D6A6A8EB29D00CAA002BD638 /* AppDelegate.swift */,
 				D6A6A8ED29D00CAA002BD638 /* SceneDelegate.swift */,
 				D6A6A8EF29D00CAA002BD638 /* ViewController.swift */,
@@ -65,6 +82,21 @@
 				D6A6A8F929D00CAB002BD638 /* Info.plist */,
 			);
 			path = "SMS Demo App";
+			sourceTree = "<group>";
+		};
+		D6A6A8FF29D00CD0002BD638 /* Attachment */ = {
+			isa = PBXGroup;
+			children = (
+				D6A6A90629D00D0E002BD638 /* app requirement example.doc */,
+				D6A6A90029D00D0D002BD638 /* app requirement example.docx */,
+				D6A6A90429D00D0E002BD638 /* become ios developer.pdf */,
+				D6A6A90229D00D0D002BD638 /* cafeloisl.jpg */,
+				D6A6A90329D00D0E002BD638 /* hello sorfian.ppt */,
+				D6A6A90729D00D0E002BD638 /* hello sorfian.pptx */,
+				D6A6A90529D00D0E002BD638 /* hello world.html */,
+				D6A6A90129D00D0D002BD638 /* my macbook.png */,
+			);
+			path = Attachment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +157,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A6A90F29D00D0E002BD638 /* hello sorfian.pptx in Resources */,
+				D6A6A90B29D00D0E002BD638 /* hello sorfian.ppt in Resources */,
 				D6A6A8F829D00CAB002BD638 /* LaunchScreen.storyboard in Resources */,
+				D6A6A90D29D00D0E002BD638 /* hello world.html in Resources */,
 				D6A6A8F529D00CAB002BD638 /* Assets.xcassets in Resources */,
+				D6A6A90A29D00D0E002BD638 /* cafeloisl.jpg in Resources */,
+				D6A6A90C29D00D0E002BD638 /* become ios developer.pdf in Resources */,
+				D6A6A90829D00D0E002BD638 /* app requirement example.docx in Resources */,
+				D6A6A90E29D00D0E002BD638 /* app requirement example.doc in Resources */,
+				D6A6A90929D00D0E002BD638 /* my macbook.png in Resources */,
 				D6A6A8F329D00CAA002BD638 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
