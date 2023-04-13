@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D6A6A8EC29D00CAA002BD638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A8EB29D00CAA002BD638 /* AppDelegate.swift */; };
 		D6A6A8EE29D00CAA002BD638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A8ED29D00CAA002BD638 /* SceneDelegate.swift */; };
-		D6A6A8F029D00CAA002BD638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A8EF29D00CAA002BD638 /* ViewController.swift */; };
 		D6A6A8F329D00CAA002BD638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F129D00CAA002BD638 /* Main.storyboard */; };
 		D6A6A8F529D00CAB002BD638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F429D00CAB002BD638 /* Assets.xcassets */; };
 		D6A6A8F829D00CAB002BD638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A8F629D00CAB002BD638 /* LaunchScreen.storyboard */; };
@@ -21,13 +20,13 @@
 		D6A6A90D29D00D0E002BD638 /* hello world.html in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90529D00D0E002BD638 /* hello world.html */; };
 		D6A6A90E29D00D0E002BD638 /* app requirement example.doc in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90629D00D0E002BD638 /* app requirement example.doc */; };
 		D6A6A90F29D00D0E002BD638 /* hello sorfian.pptx in Resources */ = {isa = PBXBuildFile; fileRef = D6A6A90729D00D0E002BD638 /* hello sorfian.pptx */; };
+		D6A6A91129D00D40002BD638 /* AttachmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6A91029D00D40002BD638 /* AttachmentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6A6A8E829D00CAA002BD638 /* SMS Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A6A8EB29D00CAA002BD638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6A6A8ED29D00CAA002BD638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6A6A8EF29D00CAA002BD638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6A6A8F229D00CAA002BD638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6A6A8F429D00CAB002BD638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A6A8F729D00CAB002BD638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		D6A6A90529D00D0E002BD638 /* hello world.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "hello world.html"; sourceTree = "<group>"; };
 		D6A6A90629D00D0E002BD638 /* app requirement example.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app requirement example.doc"; sourceTree = "<group>"; };
 		D6A6A90729D00D0E002BD638 /* hello sorfian.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hello sorfian.pptx"; sourceTree = "<group>"; };
+		D6A6A91029D00D40002BD638 /* AttachmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +75,11 @@
 				D6A6A8FF29D00CD0002BD638 /* Attachment */,
 				D6A6A8EB29D00CAA002BD638 /* AppDelegate.swift */,
 				D6A6A8ED29D00CAA002BD638 /* SceneDelegate.swift */,
-				D6A6A8EF29D00CAA002BD638 /* ViewController.swift */,
 				D6A6A8F129D00CAA002BD638 /* Main.storyboard */,
 				D6A6A8F429D00CAB002BD638 /* Assets.xcassets */,
 				D6A6A8F629D00CAB002BD638 /* LaunchScreen.storyboard */,
 				D6A6A8F929D00CAB002BD638 /* Info.plist */,
+				D6A6A91029D00D40002BD638 /* AttachmentTableViewController.swift */,
 			);
 			path = "SMS Demo App";
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A6A8F029D00CAA002BD638 /* ViewController.swift in Sources */,
 				D6A6A8EC29D00CAA002BD638 /* AppDelegate.swift in Sources */,
+				D6A6A91129D00D40002BD638 /* AttachmentTableViewController.swift in Sources */,
 				D6A6A8EE29D00CAA002BD638 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
